@@ -1,0 +1,25 @@
+{
+  "name": "24.5ski_jumping_notes-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "calculateDistancePoints.js",
+  "scripts": {
+    "test": "mocha calculateDistancePoints.test.js",
+    "test:watch": "onchange \"./*.js\" -- npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LukaszW007/24.5ski_jumping_notes-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LukaszW007/24.5ski_jumping_notes-test/issues"
+  },
+  "homepage": "https://github.com/LukaszW007/24.5ski_jumping_notes-test#readme",
+  "dependencies": {
+    "mocha": "^5.1.1",
+    "onchange": "^4.0.0"
+  }
+}
