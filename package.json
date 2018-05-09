@@ -4,7 +4,8 @@
   "description": "",
   "main": "calculateDistancePoints.js",
   "scripts": {
-    "test": "mocha calculateDistancePoints.test.js",
+    "start": "calculateStylePoints.js",
+    "test": "mocha calculateStylePoints.test.js",
     "test:watch": "onchange \"./*.js\" -- npm test"
   },
   "repository": {
